@@ -3,11 +3,11 @@
 // ============================================================
 
 export const personal = {
-  name: "[YOUR NAME]",
-  shortName: "[FIRST NAME]",
-  headline: "HI, I'M [YOUR NAME]",
-  location: "[City, Country]",
-  email: "[your@email.com]",
+  name: "Abhishek Singh",
+  shortName: "Abhishek",
+  headline: "HI, I'M ABHISHEK",
+  location: "Varanasi, India",
+  email: "222sabhishek@gmail.com",
   bio: `[
     Write a 2–3 sentence bio here. For example:
     I'm an AI/ML Engineer passionate about building intelligent systems that solve real-world problems.
@@ -17,27 +17,25 @@ export const personal = {
   roles: [
     "AI / ML Engineer",
     "Deep Learning Enthusiast",
-    "Problem Solver",
     "MLOps Practitioner",
-    "Computer Vision Engineer",
+    "Problem Solver",
   ],
   socials: {
-    github: "https://github.com/[username]",
-    linkedin: "https://linkedin.com/in/[username]",
-    twitter: "https://x.com/[username]",
-    kaggle: "https://kaggle.com/[username]",
-    email: "mailto:[your@email.com]",
+    github: "https://github.com/iabhishek765",
+    linkedin: "https://www.linkedin.com/in/abhisheksingh--aiml/",
+    email: "mailto:222sabhishek@gmail.com",
   },
 };
 
 export const expertise = [
   "Deep Learning",
-  "NLP & LLMs",
+  "Machine Learning",
   "Computer Vision",
-  "Reinforcement Learning",
-  "MLOps & CI/CD",
+  "Generative AI and Agentic Systems",
+  "NLP & LLMs",
   "Data Engineering",
   "Cloud Architecture",
+  "AI Domain Integration",
   "Open Source",
 ];
 
@@ -110,33 +108,35 @@ export const projects = [
 
 export const skills = {
   languages: [
-    { name: "Python", icon: "🐍", level: 95 },
-    { name: "C++", icon: "⚡", level: 75 },
-    { name: "Rust", icon: "🦀", level: 60 },
+    { name: "Python", icon: "🐍", level: 80 },
+    { name: "C++", icon: "⚡", level: 40 },
     { name: "SQL", icon: "🗄️", level: 85 },
-    { name: "TypeScript", icon: "📘", level: 70 },
   ],
-  mlFrameworks: [
-    { name: "PyTorch", icon: "🔥", level: 95 },
-    { name: "TensorFlow", icon: "🌊", level: 85 },
-    { name: "HuggingFace", icon: "🤗", level: 90 },
-    { name: "scikit-learn", icon: "🔬", level: 90 },
-    { name: "LangChain", icon: "🔗", level: 80 },
-    { name: "JAX", icon: "⚙️", level: 65 },
+  mlFrameworksAndLibraries: [
+    { name: "TensorFlow", icon: "🌊", level: 75 },
+    { name: "XGBoost", icon: "🐉", level: 50 },
+    { name: "scikit-learn", icon: "🔬", level: 85 },
+    { name: "Pandas", icon: "🐼", level: 70 },
+    { name: "NumPy", icon: "🔢", level: 80 },
+    { name: "Matplotlib", icon: "📊", level: 80 },
+    { name: "Hugging Face", icon: "🤗", level: 60 },
+    { name: "LangChain", icon: "🔗", level: 20 }
   ],
   tools: [
-    { name: "Docker", icon: "🐳", level: 88 },
-    { name: "Kubernetes", icon: "☸️", level: 75 },
-    { name: "MLflow", icon: "📊", level: 85 },
-    { name: "Airflow", icon: "🌬️", level: 80 },
-    { name: "Git", icon: "🌿", level: 95 },
-    { name: "FastAPI", icon: "🚀", level: 88 },
+    { name: "Google Colab", icon: "🗂️", level: 75 },
+    { name: "Azure", icon: "☁️", level: 65 },
+    { name: "Power BI", icon: "📊", level: 75 },
+    { name: "MLflow", icon: "📊", level: 80 },
+    { name: "VS Code", icon: "💻", level: 95 },
+    { name: "Vercel", icon: "▲", level: 80 },
+    { name: "Git & Git Hub", icon: "📓", level: 75 },
   ],
-  cloud: [
-    { name: "AWS", icon: "☁️", level: 80 },
-    { name: "GCP", icon: "🌤️", level: 75 },
-    { name: "Azure", icon: "💙", level: 65 },
-    { name: "Vercel", icon: "▲", level: 85 },
+  softwareDevelopment: [
+    { name: "RESTful APIs", icon: "▲", level: 70 },
+    { name: "FastAPI", icon: "🚀", level: 75 },
+    { name: "Databases", icon: "🗂️", level: 80 },
+    { name: "MySQL", icon: "🛢", level: 80 },
+    { name: "Backend Development,", icon: "🕸️", level: 65 },
   ],
 };
 

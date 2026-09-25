@@ -151,7 +151,7 @@ export default function Hero() {
             gap: '0 0.15em',
           }}
         >
-          {["HI,", " I'M", " [YOUR", " NAME]"].map((word, wi) => (
+          {["HEY THERE,", " I'M", " ABHISHEK SINGH "].map((word, wi) => (
             <span key={wi} style={{ display: 'inline-flex', overflow: 'hidden' }}>
               {word.split('').map((char, ci) => (
                 <motion.span
@@ -228,8 +228,8 @@ export default function Hero() {
             marginBottom: '2.5rem',
           }}
         >
-          Building intelligent systems that solve real-world problems.
-          Passionate about deep learning, MLOps, and open-source AI.
+          Passionate about MLOps, deep learning and open-source AI.
+          Focused on bridging the gap between research and real-world software.
         </motion.p>
 
         {/* CTA buttons */}
@@ -253,7 +253,7 @@ export default function Hero() {
             target="_blank"
             className="btn-outline"
           >
-            <Download size={16} /> Download CV
+            <Download size={16} /> Resume
           </MagneticButton>
         </motion.div>
 

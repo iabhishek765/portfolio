@@ -24,8 +24,6 @@ const iconMap: Record<string, LucideIcon> = {
 const socialLinks = [
   { icon: Github, href: personal.socials.github, label: 'GitHub', color: '#f0f4ff' },
   { icon: Linkedin, href: personal.socials.linkedin, label: 'LinkedIn', color: '#0A66C2' },
-  { icon: Twitter, href: personal.socials.twitter, label: 'X / Twitter', color: '#1DA1F2' },
-  { icon: KaggleIcon, href: personal.socials.kaggle, label: 'Kaggle', color: '#20BEFF' },
   { icon: Mail, href: personal.socials.email, label: 'Email', color: '#3b82f6' },
 ];
 
@@ -91,7 +89,7 @@ export default function Sidebar({ activeSection, onNavClick }: SidebarProps) {
           {personal.name}
         </h2>
         <p style={{ fontSize: '0.75rem', color: 'var(--accent)', fontWeight: 600, letterSpacing: '0.05em' }}>
-          AI / ML Engineer
+          Machine Learning Engineer
         </p>
       </div>
 

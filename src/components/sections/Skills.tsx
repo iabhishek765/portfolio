@@ -131,9 +131,9 @@ export default function Skills() {
 
   const groups = [
     { title: 'Languages', emoji: '💻', items: skills.languages, baseDelay: 0 },
-    { title: 'ML / DL Frameworks', emoji: '🧠', items: skills.mlFrameworks, baseDelay: 0.1 },
+    { title: 'ML / DL Frameworks & Libraries', emoji: '🧠', items: skills.mlFrameworksAndLibraries, baseDelay: 0.1 },
     { title: 'Tools & DevOps', emoji: '🛠️', items: skills.tools, baseDelay: 0.2 },
-    { title: 'Cloud & Infra', emoji: '☁️', items: skills.cloud, baseDelay: 0.3 },
+    { title: 'Software Development', emoji: '☁️', items: skills.softwareDevelopment, baseDelay: 0.3 },
   ];
 
   return (

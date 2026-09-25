@@ -31,7 +31,6 @@ export default function Contact() {
   const socials = [
     { icon: Github, href: personal.socials.github, label: 'GitHub' },
     { icon: Linkedin, href: personal.socials.linkedin, label: 'LinkedIn' },
-    { icon: Twitter, href: personal.socials.twitter, label: 'X / Twitter' },
     { icon: Mail, href: personal.socials.email, label: 'Email' },
   ];
 
