@@ -8,12 +8,12 @@ export const personal = {
   headline: "HI, I'M ABHISHEK",
   location: "Varanasi, India",
   email: "222sabhishek@gmail.com",
-  bio: `[
-    Write a 2–3 sentence bio here. For example:
-    I'm an AI/ML Engineer passionate about building intelligent systems that solve real-world problems.
-    With [X] years of experience, I specialize in deep learning, NLP, and scalable MLOps pipelines.
-    I love turning research papers into production-grade solutions.
-  ]`,
+  bio: `
+     
+     
+    
+
+  `,
   roles: [
     "AI / ML Engineer",
     "Deep Learning Enthusiast",

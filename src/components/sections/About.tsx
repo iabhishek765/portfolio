@@ -35,19 +35,31 @@ export default function About() {
             <p style={{ color: 'var(--text-secondary)', lineHeight: 1.8, fontSize: '0.95rem' }}>
               {personal.bio}
             </p>
-            <p style={{ color: 'var(--text-secondary)', lineHeight: 1.8, fontSize: '0.95rem' }}>
-              I believe in writing clean, maintainable code and sharing knowledge
-              with the community. When I&apos;m not training models, you&apos;ll find me
-              contributing to open-source, writing technical blogs, or exploring
-              the latest research papers.
+            <p style={{ textAlign: 'justify', color: 'var(--text-secondary)', lineHeight: 1.8, fontSize: '0.95rem' }}>
+              I'm a Computer Science undergraduate specializing in AI/ML, focused on 
+    building impactful artificial intelligence software systems. My interests
+    span machine learning, deep learning, and software development.
+    I enjoy working across the ML development lifecycle from data preprocessing
+    and feature engineering to model development, evaluation, API integration, 
+    and deployment and create projects which can solve some real world problems
+    like detecting deepfakes before they spread, reading emotion from raw audio,
+    student placement readiness systems and many more, i believe in learning by
+    building.
+              
+              Alongside academics, I work on improving my problem solving and leaderhip skills,
+              participate in hackathons, explore new technologies, and read newsletters. My
+              current goal is to grow as an AI/ML Engineer and contribute to meaningful products
+              which can create measurable impact.
+              
+              
             </p>
 
             {/* Info chips */}
             <div className="flex flex-wrap gap-3 pt-2">
               {[
                 { icon: MapPin, text: personal.location },
-                { icon: Briefcase, text: '[Current Role @ Company]' },
-                { icon: GraduationCap, text: '[Degree, University]' },
+                
+                { icon: GraduationCap, text: 'B.Tech CSE (AI & ML), JECRC University' },
               ].map(({ icon: Icon, text }) => (
                 <div
                   key={text}
@@ -100,14 +112,25 @@ export default function About() {
                   style={{
                     width: '100%',
                     height: '100%',
-                    background: 'linear-gradient(145deg, #0f1a3d 0%, #1e3a8a 40%, #0891b2 100%)',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '0.75rem',
+                    overflow: 'hidden',
+                    borderRadius: 'inherit',
                   }}
                 >
+                  <img
+                    src="/images/Photo.png"
+                    alt="Abhishek Singh"
+                    style={{
+                      width: '100%',
+      height: '150%',
+      objectFit: 'cover',
+      objectPosition: 'center top',
+      display: 'block',
+                    }}
+                  />
+                
+                
+
+
                   <div
                     style={{
                       width: 96,

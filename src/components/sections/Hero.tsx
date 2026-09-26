@@ -249,7 +249,7 @@ export default function Hero() {
           </button>
           <MagneticButton
             as="a"
-            href="/resume.pdf"
+            href="/Abhishek__Singh_Resume__.pdf"
             target="_blank"
             className="btn-outline"
           >
@@ -265,9 +265,9 @@ export default function Hero() {
           className="flex gap-8 mt-12"
         >
           {[
-            { value: '[X]+', label: 'Projects' },
-            { value: '[Y]+', label: 'Certifications' },
-            { value: '[Z]+', label: 'GitHub Stars' },
+            { value: '[10]+', label: 'Projects' },
+            { value: '[30]+', label: 'Certifications' },
+            { value: '[5]+', label: 'Hackathons' },
           ].map(({ value, label }) => (
             <div key={label} className="text-center">
               <div
