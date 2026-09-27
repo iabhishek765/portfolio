@@ -18,11 +18,11 @@ const gradientColors = [
 
 const iconMap: Record<string, string> = {
   Python: '🐍', PyTorch: '🔥', TensorFlow: '🌊', FastAPI: '🚀',
-  Docker: '🐳', Kubernetes: '☸️', MLflow: '📊', Airflow: '🌬️',
-  HuggingFace: '🤗', LangChain: '🔗', Pinecone: '📌',
-  'Next.js': '▲', Rust: '🦀', ONNX: '⚙️', TensorRT: '⚡',
-  Python3: '🐍', Pandas: '🐼', Plotly: '📈', Dash: '📊',
-  OpenCV: '👁️', Streamlit: '🎈', GCP: '🌤️', AWS: '☁️',
+  Seaborn: '⌨️', Scikitlearn: '☸️', PDFProcessing: '💡', LLM: '֎', SQLite: '🖥',
+  NumPy: '🧮', KNN: '🔗', NLP: '🗣️',
+  'Next.js': '▲', Matplotlib: '📊', GroqAPI: '💬', Wav2Vec2: '⚙️', Flask: '⚡',
+  Machinelearning: '🌐', Pandas: '🐼', Joblib: '📜', DeepLearning: '🧠',
+  OpenCV: '👁️', CosineSimilarity: '📚', GenAI: '🤖', TFIDF: '✍',
 };
 
 interface ProjectCardProps {
@@ -78,24 +78,16 @@ function ProjectCard({ project, index, inView }: ProjectCardProps) {
             gap: '0.5rem',
           }}
         >
-          <div
-            style={{
-              fontSize: '2.5rem',
-              filter: 'drop-shadow(0 0 12px rgba(59,130,246,0.5))',
-            }}
-          >
-            {project.tags[0] && iconMap[project.tags[0]] ? iconMap[project.tags[0]] : '🤖'}
-          </div>
-          <div
-            style={{
-              fontSize: '0.7rem',
-              color: 'rgba(255,255,255,0.4)',
-              textTransform: 'uppercase',
-              letterSpacing: '0.15em',
-            }}
-          >
-            {project.tags[0]}
-          </div>
+          <img
+  src={project.image}
+  alt={project.title}
+  style={{
+    width: '100%',
+    height: '100%',
+    objectFit: 'cover',
+    display: 'block',
+  }}
+/>
         </div>
 
         {/* Hover overlay with tech tags + links */}
@@ -236,8 +228,8 @@ export default function Projects() {
         <p className="section-label">What I&apos;ve Built</p>
         <h2 className="section-title">Projects</h2>
         <p className="section-subtitle">
-          A collection of ML/DL projects, research implementations,
-          and tools I&apos;ve built or contributed to.
+          A collection of ML/DL projects & research implementations,
+          I&apos;ve built or contributed to.
         </p>
         <div style={{ width: 48, height: 3, background: 'var(--gradient-accent)', borderRadius: 2, marginTop: '1rem', marginBottom: '3rem' }} />
       </SectionWrapper>
@@ -253,7 +245,7 @@ export default function Projects() {
       {/* GitHub CTA */}
       <SectionWrapper delay={0.4} className="flex justify-center mt-10">
         <a
-          href={`https://github.com/[username]`}
+          href={`https://github.com/iabhishek765`}
           target="_blank"
           rel="noopener noreferrer"
           className="btn-outline"

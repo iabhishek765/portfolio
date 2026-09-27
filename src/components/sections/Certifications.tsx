@@ -152,7 +152,7 @@ export default function Certifications() {
         <p className="section-label">Credentials</p>
         <h2 className="section-title">Certifications</h2>
         <p className="section-subtitle">
-          Professional certifications that validate my expertise across AI, ML, and cloud platforms.
+          Professional certifications that validate my expertise across AI and other fields.
         </p>
         <div style={{ width: 48, height: 3, background: 'var(--gradient-accent)', borderRadius: 2, marginTop: '1rem', marginBottom: '3rem' }} />
       </SectionWrapper>
