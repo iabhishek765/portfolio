@@ -162,6 +162,36 @@ export default function Certifications() {
           <CertCard key={cert.id} cert={cert} index={i} inView={inView} />
         ))}
       </div>
+      <div
+  style={{
+    display: 'flex',
+    justifyContent: 'center',
+    marginTop: '2.5rem',
+  }}
+>
+  <a
+    href="https://drive.google.com/drive/folders/1YQHFhmygm2I6CaU_v5AaqCWL2UMms2vJ?usp=drive_link"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: '0.5rem',
+      padding: '0.8rem 1.4rem',
+      borderRadius: '0.6rem',
+      border: '1px solid rgba(59, 130, 246, 0.5)',
+      background: 'rgba(30, 64, 175, 0.15)',
+      color: '#60a5fa',
+      fontSize: '0.9rem',
+      fontWeight: 600,
+      textDecoration: 'none',
+      transition: 'all 0.2s ease',
+    }}
+  >
+    View All Certifications
+    <span>↗</span>
+  </a>
+</div>
     </section>
   );
 }

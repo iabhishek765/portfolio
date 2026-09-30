@@ -17,10 +17,10 @@ export default function Achievements() {
       style={{ borderTop: '1px solid var(--border)' }}
     >
       <SectionWrapper>
-        <p className="section-label">Milestones</p>
-        <h2 className="section-title">Achievements</h2>
+        <p className="section-label">BEYOND THE CLASSROOM</p>
+        <h2 className="section-title">Achievements & Initiatives</h2>
         <p className="section-subtitle">
-          Key milestones, competition results, and recognition across the AI/ML community.
+          Leadership, hackathons, writing articles, and open-source contributions that reflect my involvement beyond coursework.
         </p>
         <div style={{ width: 48, height: 3, background: 'var(--gradient-accent)', borderRadius: 2, marginTop: '1rem', marginBottom: '3rem' }} />
       </SectionWrapper>

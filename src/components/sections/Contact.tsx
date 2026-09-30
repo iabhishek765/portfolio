@@ -74,7 +74,7 @@ export default function Contact() {
                 }}
               >
                 Whether you&apos;re looking for an AI/ML engineer, want to collaborate
-                on an open-source project, or just want to talk tech — I&apos;d love to hear from you.
+                on an open-source project, or just want to talk about something, I&apos;d love to hear from you.
               </p>
             </div>
 
@@ -279,7 +279,7 @@ export default function Contact() {
       >
         Designed & built by{' '}
         <span style={{ color: 'var(--accent)', fontWeight: 600 }}>{personal.name}</span>
-        {' '}· {new Date().getFullYear()} · Powered by Next.js
+        {' '}· {new Date().getFullYear()} 
       </div>
     </section>
   );

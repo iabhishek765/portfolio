@@ -223,37 +223,36 @@ export const certifications = [
 export const achievements = [
   {
     id: 1,
-    title: "[Achievement Title]",
+    title: "Technical Writing",
     description:
-      "[Description: e.g., Top 1% in Kaggle competition X, Silver medal, 3,000+ teams.]",
-    year: "[Year]",
-    icon: "🥇",
-    link: "#",
-  },
-  {
-    id: 2,
-    title: "[Achievement Title]",
-    description: "[Description: e.g., Published research paper at NeurIPS 2024.]",
-    year: "[Year]",
+      "Sharing insights and knowledge across Artificial Intelligence, Machine Learning, Emerging Technologies, and Computer Science through technical articles and educational content.",
     icon: "📄",
     link: "#",
   },
   {
+    id: 2,
+    title: "JUCA - JECRC University Cricket Association",
+    role: "Co-Founder & Organizer",
+    description: "Co-founded the JECRC University Cricket Association to build and manage a student-led sports community. Contributed to Match planning, team coordination, and community engagement across university-level sports activities.",
+    year: "2024-Present",
+    icon: "🥇",
+    link: "#",
+  },
+  {
     id: 3,
-    title: "[Achievement Title]",
+    title: "Hackathons",
     description:
-      "[Description: e.g., Won national hackathon with X participants.]",
-    year: "[Year]",
+      "Participated in Hackathonss focused on solving real-world problems using machine learning, artificial intelligence, and software engineering.",
+    year: "2025",
     icon: "🏆",
     link: "#",
   },
   {
     id: 4,
-    title: "[Achievement Title]",
-    description: "[Description: e.g., 1000+ GitHub stars on open-source repo.]",
-    year: "[Year]",
+    title: "Open Source Contributions",
+    description: "Contribute to software and AI/ML projects through GitHub, focusing on practical implementations, project development, documentation, experimentation, and collaborative development.",
     icon: "⭐",
-    link: "#",
+    link: "",
   },
 ];
 
@@ -294,7 +293,6 @@ export const navItems = [
   { id: "projects", label: "Projects", icon: "FolderOpen" },
   { id: "skills", label: "Skills", icon: "Cpu" },
   { id: "certifications", label: "Certifications", icon: "Award" },
-  { id: "achievements", label: "Achievements", icon: "Trophy" },
-  { id: "initiatives", label: "Initiatives", icon: "Globe" },
+  { id: "achievements", label: "Achievements & Initiatives", icon: "Trophy" },
   { id: "contact", label: "Contact", icon: "Mail" },
 ];

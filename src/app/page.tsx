@@ -9,7 +9,6 @@ import Projects from '@/components/sections/Projects';
 import Skills from '@/components/sections/Skills';
 import Certifications from '@/components/sections/Certifications';
 import Achievements from '@/components/sections/Achievements';
-import Initiatives from '@/components/sections/Initiatives';
 import Contact from '@/components/sections/Contact';
 
 const sectionIds = navItems.map((n) => n.id);
@@ -27,7 +26,7 @@ export default function Home() {
         <Skills />
         <Certifications />
         <Achievements />
-        <Initiatives />
+        
         <Contact />
       </main>
     </div>

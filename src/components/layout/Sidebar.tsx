@@ -58,20 +58,17 @@ export default function Sidebar({ activeSection, onNavClick }: SidebarProps) {
             className="avatar-ring"
             style={{ padding: 3, borderRadius: '50%', background: 'transparent' }}
           >
-            <div className="relative w-20 h-20 rounded-full overflow-hidden bg-gradient-to-br from-blue-500 to-cyan-400">
-              {/* Placeholder avatar — replace src with /images/profile.jpg */}
-              <div
-                className="w-full h-full flex items-center justify-center"
+            <div className="relative w-20 h-20 rounded-full overflow-hidden">
+              <img
+                src="/images/Photo.png"
+                alt="Abhishek Singh"
+                className="w-full h-full object-cover"
                 style={{
-                  background: 'linear-gradient(135deg, #1e3a8a 0%, #0891b2 50%, #1e40af 100%)',
-                  fontSize: '2rem',
-                  fontWeight: 700,
-                  color: 'white',
-                  fontFamily: "'Space Grotesk', sans-serif",
+                  objectPosition: 'center 15%',
+                  objectFit: "cover",
                 }}
-              >
-                {personal.shortName.charAt(0)}
-              </div>
+                />
+              
             </div>
           </div>
           {/* Online indicator */}
@@ -157,7 +154,7 @@ export default function Sidebar({ activeSection, onNavClick }: SidebarProps) {
       {/* Footer */}
       <div className="mt-auto pt-6" style={{ borderTop: '1px solid var(--border)' }}>
         <p style={{ fontSize: '0.7rem', color: 'var(--text-muted)', textAlign: 'center', lineHeight: 1.6 }}>
-          Built with Next.js & ❤️
+          
           <br />
           <span style={{ color: 'var(--accent)', fontSize: '0.65rem' }}>© {new Date().getFullYear()} {personal.shortName}</span>
         </p>
