@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { MapPin, Briefcase, GraduationCap } from 'lucide-react';
+import { MapPin, GraduationCap } from 'lucide-react';
 import Tilt from 'react-parallax-tilt';
 import { personal, expertise } from '@/data/portfolio';
 import SectionWrapper from '@/components/ui/SectionWrapper';
@@ -36,7 +36,7 @@ export default function About() {
               {personal.bio}
             </p>
             <p style={{ textAlign: 'justify', color: 'var(--text-secondary)', lineHeight: 1.8, fontSize: '0.95rem' }}>
-              I'm a Computer Science undergraduate specializing in AI/ML, focused on 
+              I am a Computer Science undergraduate specializing in AI/ML, focused on 
     building impactful artificial intelligence software systems. My interests
     span machine learning, deep learning, and software development.
     I enjoy working across the ML development lifecycle from data preprocessing

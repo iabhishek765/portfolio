@@ -21,7 +21,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Abhishek Singh | Machine Learning Engineer',
     description: 'Building intelligent systems with deep learning, NLP, and MLOps.',
-    creator: '@[username]',
   },
   robots: { index: true, follow: true },
 };

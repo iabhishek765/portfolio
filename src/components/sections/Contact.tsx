@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Send, Github, Linkedin, Twitter, Mail, MapPin, CheckCircle } from 'lucide-react';
+import { Send, Github, Linkedin, Mail, MapPin, CheckCircle } from 'lucide-react';
 import { personal } from '@/data/portfolio';
 import SectionWrapper from '@/components/ui/SectionWrapper';
 
