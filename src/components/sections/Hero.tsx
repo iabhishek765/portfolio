@@ -266,7 +266,8 @@ export default function Hero() {
         >
           {[
             { value: '[10]+', label: 'Projects' },
-            { value: '[30]+', label: 'Certifications' },
+            { value: '[30]+', label: 'Courses & Credentials' },
+            { value: '[300]+', label: 'GitHub Contributions' },
             { value: '[5]+', label: 'Hackathons' },
           ].map(({ value, label }) => (
             <div key={label} className="text-center">

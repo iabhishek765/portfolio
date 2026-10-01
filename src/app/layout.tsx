@@ -3,22 +3,23 @@ import './globals.css';
 import CustomCursor from '@/components/ui/CustomCursor';
 import ScrollProgressBar from '@/components/ui/ScrollProgressBar';
 import { LenisProvider } from '@/providers/LenisProvider';
+import GlobalBackground from '@/components/ui/GlobalBackground';
 
 export const metadata: Metadata = {
-  title: '[YOUR NAME] — AI/ML Engineer & Deep Learning Enthusiast',
+  title: 'Abhishek Singh | Machine Learning Engineer ',
   description:
-    'Personal portfolio of [YOUR NAME], an AI/ML Engineer specializing in deep learning, NLP, computer vision, and MLOps. Building intelligent systems that solve real-world problems.',
-  keywords: ['AI Engineer', 'ML Engineer', 'Deep Learning', 'NLP', 'Computer Vision', 'MLOps', 'Portfolio'],
-  authors: [{ name: '[YOUR NAME]' }],
+    'Personal portfolio of Abhishek Singh, a Machine Learning Engineer and AI/ML student specializing in machine learning, deep learning, NLP, computer vision, and intelligent systems.',
+  keywords: ['AI Engineer', 'ML Engineer', 'Deep Learning', 'AI/ML', 'Scikit-learn', 'Tensorflow', 'MLOps', 'Portfolio'],
+  authors: [{ name: 'Abhishek Singh' }],
   openGraph: {
-    title: '[YOUR NAME] — AI/ML Engineer',
-    description: 'Building intelligent systems with deep learning, NLP, and MLOps.',
+    title: 'Abhishek Singh | Machine Learning Engineer',
+    description: 'Machine Learning Engineer focused on AI/ML, deep learning, NLP, computer vision, and intelligent systems.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: '[YOUR NAME] — AI/ML Engineer',
+    title: 'Abhishek Singh | Machine Learning Engineer',
     description: 'Building intelligent systems with deep learning, NLP, and MLOps.',
     creator: '@[username]',
   },
@@ -39,12 +40,15 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head />
       <body suppressHydrationWarning>
-        <LenisProvider>
-          <CustomCursor />
-          <ScrollProgressBar />
-          {children}
-        </LenisProvider>
-      </body>
+  <GlobalBackground />
+
+  <LenisProvider>
+    <CustomCursor />
+    <ScrollProgressBar />
+    {children}
+
+  </LenisProvider>
+</body>
     </html>
   );
 }

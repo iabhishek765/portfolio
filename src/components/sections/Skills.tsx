@@ -148,7 +148,7 @@ export default function Skills() {
         <p className="section-label">Technical Arsenal</p>
         <h2 className="section-title">Skills</h2>
         <p className="section-subtitle">
-          Technologies and tools I work with daily — from research to production.
+          Technologies and tools I use to build, experiment, and deploy AI/ML systems.
         </p>
         <div style={{ width: 48, height: 3, background: 'var(--gradient-accent)', borderRadius: 2, marginTop: '1rem', marginBottom: '3rem' }} />
       </SectionWrapper>

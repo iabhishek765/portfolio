@@ -43,7 +43,7 @@ export default function About() {
     and feature engineering to model development, evaluation, API integration, 
     and deployment and create projects which can solve some real world problems
     like detecting deepfakes before they spread, reading emotion from raw audio,
-    student placement readiness systems and many more, i believe in learning by
+    student placement readiness systems and many more, I believe in learning by
     building.
               
               Alongside academics, I work on improving my problem solving and leaderhip skills,

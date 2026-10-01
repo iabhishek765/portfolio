@@ -15,10 +15,9 @@ export const personal = {
 
   `,
   roles: [
-    "AI / ML Engineer",
+    "Machine Learning Engineer",
     "Deep Learning Enthusiast",
     "MLOps Practitioner",
-    "Problem Solver",
   ],
   socials: {
     github: "https://github.com/iabhishek765",
@@ -82,15 +81,6 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Iris Flower Classification - KNN",
-    description: "A supervised machine learning classification system that predicts Iris flower species from physical measurements. The project implements an end-to-end ML workflow covering exploratory data analysis, visualization, preprocessing, feature scaling, K-Nearest Neighbors classification, hyperparameter tuning, 5-fold cross-validation, model evaluation, and trained-model persistence.",
-    image: "/images/irisss.jpeg",
-    tags: ["Python", "Matplotlib", "Machinelearning", "Seaborn", "KNN"],
-    github: "https://github.com/iabhishek765/Iris-Flower-Classification---KNN",
-    featured: false,
-  },
-  {
-    id: 6,
     title: "AI Complaint Management System",
     description: "An AI-powered complaint management platform that automates the extraction, structuring, and tracking of customer complaints from text and PDF documents. Built an end-to-end workflow using Groq LLM for intelligent information extraction, pdfplumber for document processing, FastAPI for backend APIs, React for the dashboard, and SQLite for persistent complaint management.",
     image: "/images/cms.jpeg",
